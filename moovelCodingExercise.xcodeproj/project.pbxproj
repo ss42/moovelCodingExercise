@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		109FBB061EDBD4FE00B8C749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB051EDBD4FE00B8C749 /* AppDelegate.swift */; };
+		109FBB081EDBD4FE00B8C749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB071EDBD4FE00B8C749 /* ViewController.swift */; };
+		109FBB0B1EDBD4FE00B8C749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109FBB091EDBD4FE00B8C749 /* Main.storyboard */; };
+		109FBB0D1EDBD4FE00B8C749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109FBB0C1EDBD4FE00B8C749 /* Assets.xcassets */; };
+		109FBB101EDBD4FE00B8C749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109FBB0E1EDBD4FE00B8C749 /* LaunchScreen.storyboard */; };
+		109FBB1B1EDBD4FE00B8C749 /* moovelCodingExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB1A1EDBD4FE00B8C749 /* moovelCodingExerciseTests.swift */; };
+		109FBB261EDBD4FE00B8C749 /* moovelCodingExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB251EDBD4FE00B8C749 /* moovelCodingExerciseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		109FBB171EDBD4FE00B8C749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 109FBAFA1EDBD4FE00B8C749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 109FBB011EDBD4FE00B8C749;
+			remoteInfo = moovelCodingExercise;
+		};
+		109FBB221EDBD4FE00B8C749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 109FBAFA1EDBD4FE00B8C749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 109FBB011EDBD4FE00B8C749;
+			remoteInfo = moovelCodingExercise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		109FBB021EDBD4FE00B8C749 /* moovelCodingExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moovelCodingExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		109FBB051EDBD4FE00B8C749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		109FBB071EDBD4FE00B8C749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		109FBB0A1EDBD4FE00B8C749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		109FBB0C1EDBD4FE00B8C749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		109FBB0F1EDBD4FE00B8C749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		109FBB111EDBD4FE00B8C749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109FBB161EDBD4FE00B8C749 /* moovelCodingExerciseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moovelCodingExerciseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		109FBB1A1EDBD4FE00B8C749 /* moovelCodingExerciseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moovelCodingExerciseTests.swift; sourceTree = "<group>"; };
+		109FBB1C1EDBD4FE00B8C749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109FBB211EDBD4FE00B8C749 /* moovelCodingExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moovelCodingExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		109FBB251EDBD4FE00B8C749 /* moovelCodingExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moovelCodingExerciseUITests.swift; sourceTree = "<group>"; };
+		109FBB271EDBD4FE00B8C749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		109FBAFF1EDBD4FE00B8C749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109FBB131EDBD4FE00B8C749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109FBB1E1EDBD4FE00B8C749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		109FBAF91EDBD4FE00B8C749 = {
+			isa = PBXGroup;
+			children = (
+				109FBB041EDBD4FE00B8C749 /* moovelCodingExercise */,
+				109FBB191EDBD4FE00B8C749 /* moovelCodingExerciseTests */,
+				109FBB241EDBD4FE00B8C749 /* moovelCodingExerciseUITests */,
+				109FBB031EDBD4FE00B8C749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		109FBB031EDBD4FE00B8C749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB021EDBD4FE00B8C749 /* moovelCodingExercise.app */,
+				109FBB161EDBD4FE00B8C749 /* moovelCodingExerciseTests.xctest */,
+				109FBB211EDBD4FE00B8C749 /* moovelCodingExerciseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		109FBB041EDBD4FE00B8C749 /* moovelCodingExercise */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB051EDBD4FE00B8C749 /* AppDelegate.swift */,
+				109FBB071EDBD4FE00B8C749 /* ViewController.swift */,
+				109FBB091EDBD4FE00B8C749 /* Main.storyboard */,
+				109FBB0C1EDBD4FE00B8C749 /* Assets.xcassets */,
+				109FBB0E1EDBD4FE00B8C749 /* LaunchScreen.storyboard */,
+				109FBB111EDBD4FE00B8C749 /* Info.plist */,
+			);
+			path = moovelCodingExercise;
+			sourceTree = "<group>";
+		};
+		109FBB191EDBD4FE00B8C749 /* moovelCodingExerciseTests */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB1A1EDBD4FE00B8C749 /* moovelCodingExerciseTests.swift */,
+				109FBB1C1EDBD4FE00B8C749 /* Info.plist */,
+			);
+			path = moovelCodingExerciseTests;
+			sourceTree = "<group>";
+		};
+		109FBB241EDBD4FE00B8C749 /* moovelCodingExerciseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB251EDBD4FE00B8C749 /* moovelCodingExerciseUITests.swift */,
+				109FBB271EDBD4FE00B8C749 /* Info.plist */,
+			);
+			path = moovelCodingExerciseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		109FBB011EDBD4FE00B8C749 /* moovelCodingExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109FBB2A1EDBD4FE00B8C749 /* Build configuration list for PBXNativeTarget "moovelCodingExercise" */;
+			buildPhases = (
+				109FBAFE1EDBD4FE00B8C749 /* Sources */,
+				109FBAFF1EDBD4FE00B8C749 /* Frameworks */,
+				109FBB001EDBD4FE00B8C749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moovelCodingExercise;
+			productName = moovelCodingExercise;
+			productReference = 109FBB021EDBD4FE00B8C749 /* moovelCodingExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		109FBB151EDBD4FE00B8C749 /* moovelCodingExerciseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109FBB2D1EDBD4FE00B8C749 /* Build configuration list for PBXNativeTarget "moovelCodingExerciseTests" */;
+			buildPhases = (
+				109FBB121EDBD4FE00B8C749 /* Sources */,
+				109FBB131EDBD4FE00B8C749 /* Frameworks */,
+				109FBB141EDBD4FE00B8C749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				109FBB181EDBD4FE00B8C749 /* PBXTargetDependency */,
+			);
+			name = moovelCodingExerciseTests;
+			productName = moovelCodingExerciseTests;
+			productReference = 109FBB161EDBD4FE00B8C749 /* moovelCodingExerciseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		109FBB201EDBD4FE00B8C749 /* moovelCodingExerciseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 109FBB301EDBD4FE00B8C749 /* Build configuration list for PBXNativeTarget "moovelCodingExerciseUITests" */;
+			buildPhases = (
+				109FBB1D1EDBD4FE00B8C749 /* Sources */,
+				109FBB1E1EDBD4FE00B8C749 /* Frameworks */,
+				109FBB1F1EDBD4FE00B8C749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				109FBB231EDBD4FE00B8C749 /* PBXTargetDependency */,
+			);
+			name = moovelCodingExerciseUITests;
+			productName = moovelCodingExerciseUITests;
+			productReference = 109FBB211EDBD4FE00B8C749 /* moovelCodingExerciseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		109FBAFA1EDBD4FE00B8C749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Sanjay Shrestha";
+				TargetAttributes = {
+					109FBB011EDBD4FE00B8C749 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7B9F98EQ3K;
+						ProvisioningStyle = Automatic;
+					};
+					109FBB151EDBD4FE00B8C749 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7B9F98EQ3K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 109FBB011EDBD4FE00B8C749;
+					};
+					109FBB201EDBD4FE00B8C749 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7B9F98EQ3K;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 109FBB011EDBD4FE00B8C749;
+					};
+				};
+			};
+			buildConfigurationList = 109FBAFD1EDBD4FE00B8C749 /* Build configuration list for PBXProject "moovelCodingExercise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 109FBAF91EDBD4FE00B8C749;
+			productRefGroup = 109FBB031EDBD4FE00B8C749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				109FBB011EDBD4FE00B8C749 /* moovelCodingExercise */,
+				109FBB151EDBD4FE00B8C749 /* moovelCodingExerciseTests */,
+				109FBB201EDBD4FE00B8C749 /* moovelCodingExerciseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		109FBB001EDBD4FE00B8C749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109FBB101EDBD4FE00B8C749 /* LaunchScreen.storyboard in Resources */,
+				109FBB0D1EDBD4FE00B8C749 /* Assets.xcassets in Resources */,
+				109FBB0B1EDBD4FE00B8C749 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109FBB141EDBD4FE00B8C749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109FBB1F1EDBD4FE00B8C749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		109FBAFE1EDBD4FE00B8C749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109FBB081EDBD4FE00B8C749 /* ViewController.swift in Sources */,
+				109FBB061EDBD4FE00B8C749 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109FBB121EDBD4FE00B8C749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109FBB1B1EDBD4FE00B8C749 /* moovelCodingExerciseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		109FBB1D1EDBD4FE00B8C749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				109FBB261EDBD4FE00B8C749 /* moovelCodingExerciseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		109FBB181EDBD4FE00B8C749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 109FBB011EDBD4FE00B8C749 /* moovelCodingExercise */;
+			targetProxy = 109FBB171EDBD4FE00B8C749 /* PBXContainerItemProxy */;
+		};
+		109FBB231EDBD4FE00B8C749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 109FBB011EDBD4FE00B8C749 /* moovelCodingExercise */;
+			targetProxy = 109FBB221EDBD4FE00B8C749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		109FBB091EDBD4FE00B8C749 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				109FBB0A1EDBD4FE00B8C749 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		109FBB0E1EDBD4FE00B8C749 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				109FBB0F1EDBD4FE00B8C749 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		109FBB281EDBD4FE00B8C749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		109FBB291EDBD4FE00B8C749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		109FBB2B1EDBD4FE00B8C749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7B9F98EQ3K;
+				INFOPLIST_FILE = moovelCodingExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ssanjay.com.moovelCodingExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		109FBB2C1EDBD4FE00B8C749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7B9F98EQ3K;
+				INFOPLIST_FILE = moovelCodingExercise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ssanjay.com.moovelCodingExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		109FBB2E1EDBD4FE00B8C749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7B9F98EQ3K;
+				INFOPLIST_FILE = moovelCodingExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ssanjay.com.moovelCodingExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moovelCodingExercise.app/moovelCodingExercise";
+			};
+			name = Debug;
+		};
+		109FBB2F1EDBD4FE00B8C749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7B9F98EQ3K;
+				INFOPLIST_FILE = moovelCodingExerciseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ssanjay.com.moovelCodingExerciseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moovelCodingExercise.app/moovelCodingExercise";
+			};
+			name = Release;
+		};
+		109FBB311EDBD4FE00B8C749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7B9F98EQ3K;
+				INFOPLIST_FILE = moovelCodingExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ssanjay.com.moovelCodingExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = moovelCodingExercise;
+			};
+			name = Debug;
+		};
+		109FBB321EDBD4FE00B8C749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7B9F98EQ3K;
+				INFOPLIST_FILE = moovelCodingExerciseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ssanjay.com.moovelCodingExerciseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = moovelCodingExercise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		109FBAFD1EDBD4FE00B8C749 /* Build configuration list for PBXProject "moovelCodingExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109FBB281EDBD4FE00B8C749 /* Debug */,
+				109FBB291EDBD4FE00B8C749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		109FBB2A1EDBD4FE00B8C749 /* Build configuration list for PBXNativeTarget "moovelCodingExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109FBB2B1EDBD4FE00B8C749 /* Debug */,
+				109FBB2C1EDBD4FE00B8C749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		109FBB2D1EDBD4FE00B8C749 /* Build configuration list for PBXNativeTarget "moovelCodingExerciseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109FBB2E1EDBD4FE00B8C749 /* Debug */,
+				109FBB2F1EDBD4FE00B8C749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		109FBB301EDBD4FE00B8C749 /* Build configuration list for PBXNativeTarget "moovelCodingExerciseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				109FBB311EDBD4FE00B8C749 /* Debug */,
+				109FBB321EDBD4FE00B8C749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 109FBAFA1EDBD4FE00B8C749 /* Project object */;
+}
