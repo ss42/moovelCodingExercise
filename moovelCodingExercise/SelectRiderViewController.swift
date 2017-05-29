@@ -8,7 +8,6 @@
 
 import UIKit
 
-typealias jsonDict = [String: Any]
 
 class SelectRiderViewController: UIViewController {
 
@@ -24,7 +23,17 @@ class SelectRiderViewController: UIViewController {
         tableView.delegate = self
         tableView.reloadData()
         
-        loadJson(filename: "fake")
+        //PROVIDE URL
+        
+        DataManager.getRiderInfo(url: "", completion:{(result: [Rider]?) in
+            if let riders = result{
+                self.riders = riders
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
+            }
+        })
+        //loadJson(filename: "fake")
 
         
 
@@ -57,7 +66,7 @@ class SelectRiderViewController: UIViewController {
         }
         
     }
-
+ //MARK: Used only for test
     func makeRiderObject(riderType: String, dict: jsonDict) -> Rider?{
         if let riderInfo = dict[riderType] as? jsonDict{
             var faresArray = [Ticket]()
@@ -98,7 +107,6 @@ extension SelectRiderViewController: UITableViewDataSource, UITableViewDelegate{
         let rider = riders[indexPath.row] as Rider
         cell?.textLabel?.text = rider.riderType
         cell?.detailTextLabel?.text = rider.ageGroup
-        print("Cell")
         return cell!
     }
     

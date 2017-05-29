@@ -19,6 +19,7 @@
 		109FBB3A1EDBDB7B00B8C749 /* ConfirmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB391EDBDB7B00B8C749 /* ConfirmTableViewCell.swift */; };
 		109FBB3C1EDBDE1500B8C749 /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB3B1EDBDE1500B8C749 /* Rider.swift */; };
 		109FBB3E1EDBDE7300B8C749 /* fake.json in Resources */ = {isa = PBXBuildFile; fileRef = 109FBB3D1EDBDE7300B8C749 /* fake.json */; };
+		109FBB471EDBEC3900B8C749 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB461EDBEC3900B8C749 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		109FBB391EDBDB7B00B8C749 /* ConfirmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmTableViewCell.swift; sourceTree = "<group>"; };
 		109FBB3B1EDBDE1500B8C749 /* Rider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rider.swift; sourceTree = "<group>"; };
 		109FBB3D1EDBDE7300B8C749 /* fake.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fake.json; sourceTree = "<group>"; };
+		109FBB461EDBEC3900B8C749 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,16 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				109FBB051EDBD4FE00B8C749 /* AppDelegate.swift */,
-				109FBB331EDBD75300B8C749 /* SelectRiderViewController.swift */,
-				109FBB3B1EDBDE1500B8C749 /* Rider.swift */,
-				109FBB351EDBD8DE00B8C749 /* SelectFareViewController.swift */,
-				109FBB371EDBD8F400B8C749 /* ConfirmSelectionViewController.swift */,
-				109FBB391EDBDB7B00B8C749 /* ConfirmTableViewCell.swift */,
-				109FBB3D1EDBDE7300B8C749 /* fake.json */,
-				109FBB091EDBD4FE00B8C749 /* Main.storyboard */,
-				109FBB0C1EDBD4FE00B8C749 /* Assets.xcassets */,
-				109FBB0E1EDBD4FE00B8C749 /* LaunchScreen.storyboard */,
-				109FBB111EDBD4FE00B8C749 /* Info.plist */,
+				109FBB461EDBEC3900B8C749 /* DataManager.swift */,
+				109FBB421EDBEBDB00B8C749 /* Model */,
+				109FBB431EDBEBE800B8C749 /* Controller */,
+				109FBB441EDBEBF000B8C749 /* View */,
+				109FBB451EDBEBF800B8C749 /* Supporting Files */,
 			);
 			path = moovelCodingExercise;
 			sourceTree = "<group>";
@@ -138,6 +135,68 @@
 				109FBB271EDBD4FE00B8C749 /* Info.plist */,
 			);
 			path = moovelCodingExerciseUITests;
+			sourceTree = "<group>";
+		};
+		109FBB3F1EDBEBAB00B8C749 /* SelectRider */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB331EDBD75300B8C749 /* SelectRiderViewController.swift */,
+			);
+			name = SelectRider;
+			sourceTree = "<group>";
+		};
+		109FBB401EDBEBBC00B8C749 /* SelectFare */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB351EDBD8DE00B8C749 /* SelectFareViewController.swift */,
+			);
+			name = SelectFare;
+			sourceTree = "<group>";
+		};
+		109FBB411EDBEBC600B8C749 /* ConfirmSelection */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB371EDBD8F400B8C749 /* ConfirmSelectionViewController.swift */,
+			);
+			name = ConfirmSelection;
+			sourceTree = "<group>";
+		};
+		109FBB421EDBEBDB00B8C749 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB391EDBDB7B00B8C749 /* ConfirmTableViewCell.swift */,
+				109FBB3B1EDBDE1500B8C749 /* Rider.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		109FBB431EDBEBE800B8C749 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB3F1EDBEBAB00B8C749 /* SelectRider */,
+				109FBB401EDBEBBC00B8C749 /* SelectFare */,
+				109FBB411EDBEBC600B8C749 /* ConfirmSelection */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		109FBB441EDBEBF000B8C749 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB091EDBD4FE00B8C749 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		109FBB451EDBEBF800B8C749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				109FBB3D1EDBDE7300B8C749 /* fake.json */,
+				109FBB0C1EDBD4FE00B8C749 /* Assets.xcassets */,
+				109FBB0E1EDBD4FE00B8C749 /* LaunchScreen.storyboard */,
+				109FBB111EDBD4FE00B8C749 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +340,7 @@
 				109FBB361EDBD8DE00B8C749 /* SelectFareViewController.swift in Sources */,
 				109FBB061EDBD4FE00B8C749 /* AppDelegate.swift in Sources */,
 				109FBB3C1EDBDE1500B8C749 /* Rider.swift in Sources */,
+				109FBB471EDBEC3900B8C749 /* DataManager.swift in Sources */,
 				109FBB381EDBD8F400B8C749 /* ConfirmSelectionViewController.swift in Sources */,
 				109FBB341EDBD75300B8C749 /* SelectRiderViewController.swift in Sources */,
 				109FBB3A1EDBDB7B00B8C749 /* ConfirmTableViewCell.swift in Sources */,

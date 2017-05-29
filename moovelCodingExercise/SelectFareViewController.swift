@@ -22,7 +22,7 @@ class SelectFareViewController: UIViewController {
         tableView.reloadData()
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "toFare"{
+        if segue.identifier == "toConfirm"{
             if let toVC = segue.destination as? ConfirmSelectionViewController {
                 toVC.ticket = sendTicket
                 toVC.currentRider = currentRider

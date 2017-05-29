@@ -25,6 +25,27 @@ struct Rider{
         self.riderType = ""
         
     }
+    init(json: jsonDict, riderType: String) throws {
+        guard let riderInfo = json[riderType] as? jsonDict else { throw SerializationError.empty("Info is missing") }
+        var faresArray = [Ticket]()
+            
+        guard let fares = riderInfo["fares"] as? [jsonDict] else {throw SerializationError.empty("Info is missing")}
+        for fare in fares{
+            guard let description = fare["description"] as? String else{ continue }
+            guard let price = fare["price"] as? Double else{continue}
+            faresArray.append(Ticket(type: description, price: price))
+        }
+        
+        var sub = ""
+        if let subText = riderInfo["subtext"] as? String{
+            sub = subText
+                
+        }
+        self.ageGroup = sub
+        self.tickets = faresArray
+        self.riderType = riderType
+
+    }
 }
 
 struct Ticket{
@@ -38,4 +59,8 @@ struct Ticket{
         self.price = 0.0
         self.type = ""
     }
+}
+enum SerializationError: Error {
+    case empty(String)
+    case invalid(String, Any)
 }

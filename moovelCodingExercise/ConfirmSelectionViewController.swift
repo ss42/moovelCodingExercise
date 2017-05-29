@@ -19,6 +19,9 @@ class ConfirmSelectionViewController: UIViewController {
         navigationItem.title = "Confirm Selection"
         tableView.dataSource = self
         tableView.delegate = self
+        print("ticket info below")
+        print(currentRider.riderType)
+        print(ticket.type)
         tableView.reloadData()
     }
     
@@ -32,7 +35,13 @@ class ConfirmSelectionViewController: UIViewController {
 extension ConfirmSelectionViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell: ConfirmTableViewCell = tableView.dequeueReusableCell(withIdentifier: "ConfirmCell") as! ConfirmTableViewCell
-        cell.mainText?.text = "Hi"
+        
+        cell.mainText?.text = currentRider.riderType
+        cell.detailText.text = ticket.type
+        cell.amount.text = "0"
+        cell.minusPressed(self)
+        cell.plusPressed(self)
+        print(ticket.type)
 
         return cell
     }
