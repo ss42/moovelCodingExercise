@@ -10,6 +10,8 @@ import UIKit
 
 class ConfirmSelectionViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
+    var currentRider = Rider()
+    var ticket = Ticket()
 
     @IBOutlet weak var confirmPressed: UIButton!
     override func viewDidLoad() {

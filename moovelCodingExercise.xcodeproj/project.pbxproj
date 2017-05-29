@@ -17,6 +17,8 @@
 		109FBB361EDBD8DE00B8C749 /* SelectFareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB351EDBD8DE00B8C749 /* SelectFareViewController.swift */; };
 		109FBB381EDBD8F400B8C749 /* ConfirmSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB371EDBD8F400B8C749 /* ConfirmSelectionViewController.swift */; };
 		109FBB3A1EDBDB7B00B8C749 /* ConfirmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB391EDBDB7B00B8C749 /* ConfirmTableViewCell.swift */; };
+		109FBB3C1EDBDE1500B8C749 /* Rider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB3B1EDBDE1500B8C749 /* Rider.swift */; };
+		109FBB3E1EDBDE7300B8C749 /* fake.json in Resources */ = {isa = PBXBuildFile; fileRef = 109FBB3D1EDBDE7300B8C749 /* fake.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		109FBB351EDBD8DE00B8C749 /* SelectFareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFareViewController.swift; sourceTree = "<group>"; };
 		109FBB371EDBD8F400B8C749 /* ConfirmSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSelectionViewController.swift; sourceTree = "<group>"; };
 		109FBB391EDBDB7B00B8C749 /* ConfirmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmTableViewCell.swift; sourceTree = "<group>"; };
+		109FBB3B1EDBDE1500B8C749 /* Rider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rider.swift; sourceTree = "<group>"; };
+		109FBB3D1EDBDE7300B8C749 /* fake.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fake.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +109,11 @@
 			children = (
 				109FBB051EDBD4FE00B8C749 /* AppDelegate.swift */,
 				109FBB331EDBD75300B8C749 /* SelectRiderViewController.swift */,
+				109FBB3B1EDBDE1500B8C749 /* Rider.swift */,
 				109FBB351EDBD8DE00B8C749 /* SelectFareViewController.swift */,
 				109FBB371EDBD8F400B8C749 /* ConfirmSelectionViewController.swift */,
 				109FBB391EDBDB7B00B8C749 /* ConfirmTableViewCell.swift */,
+				109FBB3D1EDBDE7300B8C749 /* fake.json */,
 				109FBB091EDBD4FE00B8C749 /* Main.storyboard */,
 				109FBB0C1EDBD4FE00B8C749 /* Assets.xcassets */,
 				109FBB0E1EDBD4FE00B8C749 /* LaunchScreen.storyboard */,
@@ -244,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				109FBB3E1EDBDE7300B8C749 /* fake.json in Resources */,
 				109FBB101EDBD4FE00B8C749 /* LaunchScreen.storyboard in Resources */,
 				109FBB0D1EDBD4FE00B8C749 /* Assets.xcassets in Resources */,
 				109FBB0B1EDBD4FE00B8C749 /* Main.storyboard in Resources */,
@@ -273,6 +280,7 @@
 			files = (
 				109FBB361EDBD8DE00B8C749 /* SelectFareViewController.swift in Sources */,
 				109FBB061EDBD4FE00B8C749 /* AppDelegate.swift in Sources */,
+				109FBB3C1EDBDE1500B8C749 /* Rider.swift in Sources */,
 				109FBB381EDBD8F400B8C749 /* ConfirmSelectionViewController.swift in Sources */,
 				109FBB341EDBD75300B8C749 /* SelectRiderViewController.swift in Sources */,
 				109FBB3A1EDBDB7B00B8C749 /* ConfirmTableViewCell.swift in Sources */,
