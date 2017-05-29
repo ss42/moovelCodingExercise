@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		109FBB061EDBD4FE00B8C749 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB051EDBD4FE00B8C749 /* AppDelegate.swift */; };
-		109FBB081EDBD4FE00B8C749 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB071EDBD4FE00B8C749 /* ViewController.swift */; };
 		109FBB0B1EDBD4FE00B8C749 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109FBB091EDBD4FE00B8C749 /* Main.storyboard */; };
 		109FBB0D1EDBD4FE00B8C749 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 109FBB0C1EDBD4FE00B8C749 /* Assets.xcassets */; };
 		109FBB101EDBD4FE00B8C749 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 109FBB0E1EDBD4FE00B8C749 /* LaunchScreen.storyboard */; };
 		109FBB1B1EDBD4FE00B8C749 /* moovelCodingExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB1A1EDBD4FE00B8C749 /* moovelCodingExerciseTests.swift */; };
 		109FBB261EDBD4FE00B8C749 /* moovelCodingExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB251EDBD4FE00B8C749 /* moovelCodingExerciseUITests.swift */; };
+		109FBB341EDBD75300B8C749 /* SelectRiderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB331EDBD75300B8C749 /* SelectRiderViewController.swift */; };
+		109FBB361EDBD8DE00B8C749 /* SelectFareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB351EDBD8DE00B8C749 /* SelectFareViewController.swift */; };
+		109FBB381EDBD8F400B8C749 /* ConfirmSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB371EDBD8F400B8C749 /* ConfirmSelectionViewController.swift */; };
+		109FBB3A1EDBDB7B00B8C749 /* ConfirmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FBB391EDBDB7B00B8C749 /* ConfirmTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,6 @@
 /* Begin PBXFileReference section */
 		109FBB021EDBD4FE00B8C749 /* moovelCodingExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moovelCodingExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		109FBB051EDBD4FE00B8C749 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		109FBB071EDBD4FE00B8C749 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		109FBB0A1EDBD4FE00B8C749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		109FBB0C1EDBD4FE00B8C749 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		109FBB0F1EDBD4FE00B8C749 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +49,10 @@
 		109FBB211EDBD4FE00B8C749 /* moovelCodingExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moovelCodingExerciseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		109FBB251EDBD4FE00B8C749 /* moovelCodingExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moovelCodingExerciseUITests.swift; sourceTree = "<group>"; };
 		109FBB271EDBD4FE00B8C749 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		109FBB331EDBD75300B8C749 /* SelectRiderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectRiderViewController.swift; sourceTree = "<group>"; };
+		109FBB351EDBD8DE00B8C749 /* SelectFareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectFareViewController.swift; sourceTree = "<group>"; };
+		109FBB371EDBD8F400B8C749 /* ConfirmSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSelectionViewController.swift; sourceTree = "<group>"; };
+		109FBB391EDBDB7B00B8C749 /* ConfirmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				109FBB051EDBD4FE00B8C749 /* AppDelegate.swift */,
-				109FBB071EDBD4FE00B8C749 /* ViewController.swift */,
+				109FBB331EDBD75300B8C749 /* SelectRiderViewController.swift */,
+				109FBB351EDBD8DE00B8C749 /* SelectFareViewController.swift */,
+				109FBB371EDBD8F400B8C749 /* ConfirmSelectionViewController.swift */,
+				109FBB391EDBDB7B00B8C749 /* ConfirmTableViewCell.swift */,
 				109FBB091EDBD4FE00B8C749 /* Main.storyboard */,
 				109FBB0C1EDBD4FE00B8C749 /* Assets.xcassets */,
 				109FBB0E1EDBD4FE00B8C749 /* LaunchScreen.storyboard */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				109FBB081EDBD4FE00B8C749 /* ViewController.swift in Sources */,
+				109FBB361EDBD8DE00B8C749 /* SelectFareViewController.swift in Sources */,
 				109FBB061EDBD4FE00B8C749 /* AppDelegate.swift in Sources */,
+				109FBB381EDBD8F400B8C749 /* ConfirmSelectionViewController.swift in Sources */,
+				109FBB341EDBD75300B8C749 /* SelectRiderViewController.swift in Sources */,
+				109FBB3A1EDBDB7B00B8C749 /* ConfirmTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +528,7 @@
 				109FBB2C1EDBD4FE00B8C749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		109FBB2D1EDBD4FE00B8C749 /* Build configuration list for PBXNativeTarget "moovelCodingExerciseTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				109FBB2F1EDBD4FE00B8C749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		109FBB301EDBD4FE00B8C749 /* Build configuration list for PBXNativeTarget "moovelCodingExerciseUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				109FBB321EDBD4FE00B8C749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
